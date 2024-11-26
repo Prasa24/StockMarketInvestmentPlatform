@@ -77,6 +77,7 @@ export default function Register() {
                   name='firstName'
                   value={formData.firstName}
                   onChange={handleChange}
+                  required
                 />
                 <div className='w-2/12 flex items-center justify-center'>
                   <i className='fa-solid fa-user text-xl'></i>
@@ -90,6 +91,7 @@ export default function Register() {
                   name='lastName'
                   value={formData.lastName}
                   onChange={handleChange}
+                  required
                 />
                 <div className='w-2/12 flex items-center justify-center'>
                   <i className='fa-solid fa-user text-xl'></i>
